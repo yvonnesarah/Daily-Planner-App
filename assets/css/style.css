@@ -22,7 +22,9 @@ textarea {
 }
 
 .description {
-  white-space: pre-wrap;
+  text-align: center;
+  color: white;
+  font-size: 25px;
 }
 
 .time-block {
