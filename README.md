@@ -44,6 +44,9 @@ Daily Planner App
 Daily Planner App Schedule
 ![Screenshot](assets/images/daily-planner-app-schedule.png "Daily Planner App Schedule")
 
+Daily Planner App Local Storage
+![Screenshot](assets/images/local-storage.png "Daily Planner App Local Storage")
+
 ## Credit
 N/A
 
