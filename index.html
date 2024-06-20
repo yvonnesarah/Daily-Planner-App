@@ -2,6 +2,7 @@
 <html lang="en-gb">
   <head>
     <meta charset="UTF-8" />
+    <!--Added meta viewport for mobile and monitor accessibility-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
       <!-- Link to bootstrap -->
@@ -25,11 +26,13 @@
     rel="stylesheet"
     href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
   />
+   <!--CSS Stylesheet-->
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Work Day Schedule</title>
   </head>
 
   <body>
+     <!--Header-->
     <header class="jumbotron">
       <h1 class="display-3">Work Day Schedule</h1>
       <br>
@@ -37,6 +40,7 @@
       <br>
       <p id="currentDay" class="lead"></p>
     </header>
+     <!--Container-->
     <div class="container">
        <!-- time block 9am - 5pm -->
        <div id="09" class="row time-block"> <!-- class names using css and bootstrap, ID to be able to select each time block -->
@@ -118,6 +122,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+     <!--JavaScript-->
     <script src="./assets/js/script.js"></script>
   </body>
 </html>
