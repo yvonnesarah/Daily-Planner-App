@@ -1,54 +1,65 @@
 # Daily-Planner-App
 
-## Description
-A simple calendar application that allows a user to save events for each hour between 9am-5pm. It runs in the browser and feature dynamically updated HTML and CSS powered by jQuery. This app loops through the hours for a specific date, which is the current day that the user opens the app, uses moment.js to handle date. This application also allows the user to enter and save text into any description field, the data will be saved to the localStorage of the browser. The past hours are highlighted #75FF33, the present hour #ff6961, and future hours #FFBD33.
+## 📌 Description
+The Daily Planner App is a simple, browser-based calendar application designed to help users organize their daily schedules. It allows users to add events for each hour between 9 AM and 5 PM, and saves them locally in the browser's localStorage for persistence across sessions. The app uses dynamic HTML and CSS, powered by jQuery, to provide a smooth user experience.
 
-## Prerequisites
+The app displays a calendar for the current day, with each time block color-coded based on whether it’s in the past, present, or future. The past hours are highlighted in green (#75FF33), the present hour in red (#ff6961), and the future hours in yellow (#FFBD33).
+
+## 🛠 Prerequisites
 N/A
 
 ## Criteria
-The app should:
-* Display the current day at the top of the calendar when a user opens the planner.
-* Present timeblocks for standard business hours when the user scrolls down.
+* Displays the current day at the top of the calendar.
+* Allows users to add, save, and persist events for each hour.
 * Color-code each timeblock based on past, present, and future when the timeblock is viewed.
-* Allow a user to enter an event when they click a timeblock.
-* Save the event in local storage when the save button is clicked in that timeblock.
-* Persist events between refreshes of a page.
+* Stores events in the browser’s localStorage to ensure data persists across page refreshes.
+
+
  
- ## Technologies Used
- Built with:
+ ## 💻 Technologies Used
+The application is built with the following technologies:
 * HTML
 * CSS
 * JavaScript
 * Bootstrap
 * jQuery
 * Moment.js
-* fontawesome
+* FontAwesome
 
-## Installation
-N/A
+## 🚀 Installation
+No installation is required to use the app. It is hosted online and can be accessed via a web browser.
 
-## Usage
-N/A
+## 📚 Usage
+To use the app:
+1. Open the app in your web browser.
+2. The current day's calendar will load with time blocks for each hour between 9 AM and 5 PM.
+3. Click on a time block to add a description of your event.
+4. Press the save button next to the time block to save the event.
+5. The events will be saved locally in your browser and persist between refreshes.
 
-## Project Link
-Application can can be viewed here: 
+## 🔗 Live Demo & Repository
+Application can be viewed here: 
 * [Live](https://yvonnesarah.github.io/Daily-Planner-App/)
 
 * [Repository](https://github.com/yvonnesarah/Daily-Planner-App)
 
-## Screenshot(S)
-Daily Planner App
+## 🖼 Screenshot(S)
+Here are some screenshots of the app in action:
+
+Main Interface:
 ![Screenshot](assets/images/daily-planner-app.png "Daily Planner App")
 
-Daily Planner App Schedule
+Scheduler with Time Blocks:
 ![Screenshot](assets/images/daily-planner-app-schedule.png "Daily Planner App Schedule")
 
-Daily Planner App Local Storage
+Local Storage in Action:
 ![Screenshot](assets/images/local-storage.png "Daily Planner App Local Storage")
 
-## Credit
+## 👥 Credit
 N/A
 
-## Licence
-Please refer to the LICENSE in the repo.
+## 📜 License
+This project is open-source. For licensing details, please refer to the LICENSE file in the repository.
+
+## 📬 Contact
+You can reach me at 📧 yvonneadedeji.sarah@gmail.com.
