@@ -8,7 +8,7 @@ The app displays a calendar for the current day, with each time block color-code
 ## 🛠 Prerequisites
 N/A
 
-## Criteria
+## 📋 Criteria
 * Displays the current day at the top of the calendar.
 * Allows users to add, save, and persist events for each hour.
 * Color-code each timeblock based on past, present, and future when the timeblock is viewed.
