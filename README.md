@@ -14,8 +14,6 @@ N/A
 * Color-code each timeblock based on past, present, and future when the timeblock is viewed.
 * Stores events in the browser’s localStorage to ensure data persists across page refreshes.
 
-
- 
  ## 💻 Technologies Used
 The application is built with the following technologies:
 * HTML
