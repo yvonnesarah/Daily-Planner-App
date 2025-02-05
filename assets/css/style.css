@@ -1,73 +1,85 @@
+/* General body styling */
 body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  line-height: 1;
+  font-family: 'Open Sans', sans-serif; /* Set the font family to Open Sans */
+  font-size: 16px; /* Set the font size to 16px */
+  line-height: 1; /* Set the line height to 1 for compact text */
 }
 
+/* Textarea styling */
 textarea {
-  background: transparent;
-  border: 1px solid black;
-  resize: none;
-  color: #000000;
-  border-left: 1px solid black;
-  padding: 10px;
+  background: transparent; /* Set background to transparent */
+  border: 1px solid black; /* Add a black border around textarea */
+  resize: none; /* Disable resizing of textarea */
+  color: #000000; /* Set text color to black */
+  border-left: 1px solid black; /* Add a left border */
+  padding: 10px; /* Add padding inside the textarea */
 }
 
+/* Styling for the jumbotron header */
 .jumbotron {
-  text-align: center;
-  background-color: red;
-  color: white;
-  border-radius: 0;
-  border-bottom: 10px solid black;
+  text-align: center; /* Center-align the text */
+  background-color: red; /* Set the background color to red */
+  color: white; /* Set text color to white */
+  border-radius: 0; /* No rounded corners for the jumbotron */
+  border-bottom: 10px solid black; /* Add a thick black border at the bottom */
 }
 
+/* Styling for the description text inside time blocks */
 .description {
-  text-align: center;
-  color: white;
-  font-size: 25px;
+  text-align: center; /* Center-align the text */
+  color: white; /* Set text color to white */
+  font-size: 25px; /* Set font size to 25px */
 }
 
+/* General styling for the time blocks */
 .time-block {
-  text-align: center;
-  border-radius: 15px;
+  text-align: center; /* Center-align the text */
+  border-radius: 15px; /* Round the corners of the time blocks */
 }
 
+/* Styling for each row within a time block */
 .row {
-  white-space: pre-wrap;
-  height: 80px;
-  border-top: 1px solid white;
+  white-space: pre-wrap; /* Allow text to wrap and preserve spaces */
+  height: 80px; /* Set a fixed height for the rows */
+  border-top: 1px solid white; /* Add a top border with white color */
 }
 
+/* Styling for the hour section of each time block */
 .hour {
-  background-color: yellow;
-  color: #000000;
-  border-top: 1px dashed #000000;
+  background-color: yellow; /* Set background color of the hour section to yellow */
+  color: #000000; /* Set text color to black */
+  border-top: 1px dashed #000000; /* Add a dashed black border at the top */
 }
 
+/* Styling for time blocks in the past */
 .past {
-  background-color: #75FF33;
-  color: white;
+  background-color: #75FF33; /* Set background color to light green */
+  color: white; /* Set text color to white */
 }
 
+/* Styling for the current time block */
 .present {
-  background-color: #ff6961;
-  color: white;
+  background-color: #ff6961; /* Set background color to light red */
+  color: white; /* Set text color to white */
 }
 
+/* Styling for future time blocks */
 .future {
-  background-color: #FFBD33;
-  color: white;
+  background-color: #FFBD33; /* Set background color to yellow */
+  color: white; /* Set text color to white */
 }
 
+/* Styling for the save button */
 .saveBtn {
-  border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-color: #06aed5;
-  color: white;
+  border-left: 1px solid black; /* Add a black left border */
+  border-top-right-radius: 15px; /* Round the top-right corner */
+  border-bottom-right-radius: 15px; /* Round the bottom-right corner */
+  background-color: #06aed5; /* Set background color to teal */
+  color: white; /* Set text color to white */
 }
 
+/* Hover effect for the save button icon */
 .saveBtn i:hover {
-  font-size: 20px;
-  transition: all 0.3s ease-in-out;
+  font-size: 20px; /* Increase font size when hovered */
+  transition: all 0.3s ease-in-out; /* Smooth transition effect for the hover action */
 }

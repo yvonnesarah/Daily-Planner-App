@@ -2,115 +2,137 @@
 <html lang="en-gb">
   <head>
     <meta charset="UTF-8" />
-    <!--Added meta viewport for mobile and monitor accessibility-->
+    <!-- Added meta viewport for mobile and monitor accessibility -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-      <!-- Link to bootstrap -->
+    
+    <!-- Link to bootstrap stylesheet for layout and styling -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     />
-      <!-- Link to fontawesome -->
+    
+    <!-- Link to FontAwesome icons for adding icons to buttons and other elements -->
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
+    
+    <!-- Link to Google Fonts (Open Sans) for custom typography -->
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <!-- Link to jquery -->
+    
+    <!-- Link to jQuery UI stylesheet for enhanced UI features like date pickers or animations -->
     <link
-    rel="stylesheet"
-    href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
-  />
-   <!--CSS Stylesheet-->
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+    />
+    
+    <!-- Link to custom CSS stylesheet for additional styles -->
     <link rel="stylesheet" href="./assets/css/style.css" />
+    
+    <!-- Page title -->
     <title>Work Day Schedule</title>
   </head>
 
   <body>
-     <!--Header-->
+    <!-- Header section containing the title and description of the app -->
     <header class="jumbotron">
       <h1 class="display-3">Work Day Schedule</h1>
       <br>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <br>
-      <p id="currentDay" class="lead"></p>
+      <p id="currentDay" class="lead"></p> <!-- Placeholder for displaying the current day -->
     </header>
-     <!--Container-->
+    
+    <!-- Main container to hold time blocks for scheduling -->
     <div class="container">
-       <!-- time block 9am - 5pm -->
-       <div id="09" class="row time-block"> <!-- class names using css and bootstrap, ID to be able to select each time block -->
-        <div class="col-sm-1 hour"> 
-            09:00AM
+      <!-- Time block for 9:00AM -->
+      <div id="09" class="row time-block">
+        <!-- Hour column displaying time -->
+        <div class="col-sm-1 hour">
+          09:00AM
         </div>
-        <!-- text area for the user to enter text using bootstrap -->
+        
+        <!-- Textarea for user input, allowing them to enter a schedule for the time block -->
         <textarea class="col-sm-10 description">            
         </textarea>
-        <button class="btn saveBtn col-sm-1"><i class="fas fa-save"></i></button><!-- save button with font-awesome save icon -->
+        
+        <!-- Save button with FontAwesome save icon -->
+        <button class="btn saveBtn col-sm-1"><i class="fas fa-save"></i></button>
       </div>
+      
+      <!-- Repeated time blocks for other times of the workday (10:00AM - 5:00PM) -->
       <div id="10" class="row time-block">
         <div class="col-sm-1 hour">
-            10:00AM
+          10:00AM
         </div>
         <textarea class="col-sm-10 description">            
         </textarea>
         <button class="btn saveBtn col-sm-1"><i class="fas fa-save"></i></button>
       </div>
+      
       <div id="11" class="row time-block">
         <div class="col-sm-1 hour">
-            11:00AM
+          11:00AM
         </div>
         <textarea class="col-sm-10 description">            
         </textarea>
         <button class="btn saveBtn col-sm-1"><i class="fas fa-save"></i></button>
       </div>
+      
       <div id="12" class="row time-block">
         <div class="col-sm-1 hour">
-            12:00PM
+          12:00PM
         </div>
         <textarea class="col-sm-10 description">            
         </textarea>
         <button class="btn saveBtn col-sm-1"><i class="fas fa-save"></i></button>
       </div>
+      
       <div id="13" class="row time-block">
         <div class="col-sm-1 hour">
-            1:00PM
+          1:00PM
         </div>
         <textarea class="col-sm-10 description">            
         </textarea>
         <button class="btn saveBtn col-sm-1"><i class="fas fa-save"></i></button>
       </div>
+      
       <div id="14" class="row time-block">
         <div class="col-sm-1 hour">
-            2:00PM
+          2:00PM
         </div>
         <textarea class="col-sm-10 description">            
         </textarea>
         <button class="btn saveBtn col-sm-1"><i class="fas fa-save"></i></button>
       </div>
+      
       <div id="15" class="row time-block">
         <div class="col-sm-1 hour">
-            3:00PM
+          3:00PM
         </div>
         <textarea class="col-sm-10 description">            
         </textarea>
         <button class="btn saveBtn col-sm-1"><i class="fas fa-save"></i></button>
       </div>
+      
       <div id="16" class="row time-block">
         <div class="col-sm-1 hour">
-            4:00PM
+          4:00PM
         </div>
         <textarea class="col-sm-10 description">            
         </textarea>
         <button class="btn saveBtn col-sm-1"><i class="fas fa-save"></i></button>
       </div>
+      
       <div id="17" class="row time-block">
         <div class="col-sm-1 hour">
-            5:00PM
+          5:00PM
         </div>
         <textarea class="col-sm-10 description">            
         </textarea>
@@ -120,9 +142,13 @@
 
     </div>
 
+    <!-- Link to jQuery library -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    <!-- Link to Moment.js library for handling date and time -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-     <!--JavaScript-->
+    
+    <!-- Link to custom JavaScript file for added functionality -->
     <script src="./assets/js/script.js"></script>
   </body>
 </html>
